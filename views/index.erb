@@ -1,40 +1,130 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Cookie Book</title>
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="header">Cookie Book</h1>
-
-      <h4 class="caption"> Find which cookie to bake!</h4>
-      <div class="question">
-      <form action="/results" method="post">
-      <h2>What is this cookie for?</h2>
-        <input type="radio" name="meal" value="3">Dessert<br>
-        <input type="radio" name="meal" value="2">Snack<br>
-        <input type="radio" name="meal" value="1">Energy
-        <h2>What should this cookie taste like?</h2>
-        <input type="radio" name="flavor" value="2">Salty<br>
-        <input type="radio" name="flavor" value="1"> Fruity<br>
-        <input type="radio" name="flavor" value="3">Sweet<br>
-        <h2> Which of these ingredients would you prefer? </h2>
-          <input type="radio" name="thing" value="1" >Fruit<br>
-          <input type="radio" name="thing" value="3">Chocolate <br>
-          <input type="radio" name="thing" value="2">Nuts<br>
-        <!-- <h2> How experienced are you with baking?</h2>
-<br> -->
-
-          <!-- <input type="radio" name="skill" value="A" >I'm an expert
-
-        <input type="radio" name="skill" value="B"> I've baked a bit <br>
-          <input type="radio" name="skill" value="C">I've never baked anything really
-            <br> -->
-          <button type = "submit" class="new"> Let's bake! </button>
-      </form>
-    </div>
-  </div>
-
-  </body>
+    <head>
+      <meta charset="UTF-8">
+        <title>VacationDestination</title>
+        <!--<link rel"stylesheet" type "text/css" href = "/css/styles.css">-->
+        
+    </head>
+    <body>
+              <style>
+              body {
+                  background-image: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+                  color: white;
+                  font-family: Helvetica;
+                  font-size:120%;
+                   letter-spacing: 1px;
+    
+                    }
+                </style> 
+        <h1 class><center>Vacation Destination</center></h1>
+        <style>
+          h1 {
+              letter-spacing: 5px;
+              font-size: 400%;
+              text-decoration: underline;
+              }
+        </style>
+        <h2><center><i>For a personalized vacation plan</i></center></h2>
+        <br>
+      <br>
+        <center>
+        <div>
+          <form action = "/results" method="post">
+        <p><b>What kind of climate do you prefer?</b></p>
+         <img style='border:3px solid white' src="https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/04834ebdd87b48d5961b26075febd578" width = 200 length = 200 />
+         <br>
+        <form action="">
+  <input type="radio" name="climate" value="1"> Cold<br>
+  <input type="radio" name="climate" value="2"> Moderate<br>
+  <input type="radio" name="climate" value="3"> Hot<br>
+  <input type="radio" name="climate" value="4"> I don't care
+  <br>
+<br>
+          <br>
+         </div> 
+         
+         <div>
+             <p><b>Which would you want to do?</b></p>
+             <img style='border:3px solid white' src ="https://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Sunset-at-Wipeout-Beach-La-Jolla-California-e1482282928458-1000x620.jpg"
+            width = 200 length = 200 />
+            <br>
+              <form action="">
+  <input type="radio" name="do" value="1"> Explore<br>
+  <input type="radio" name="do" value="2"> Relax<br>
+  <input type="radio" name="do" value="3"> Shop<br>
+  <input type="radio" name="do" value="4"> See historical sites
+         </div>
+           <br>
+<br>
+          <br>
+           <div>
+             <p><b>Who are you traveling with?</b></p>
+             <img style='border:3px solid white' src ="https://wanderwayer.com/wp-content/uploads/2016/06/friends-travel-golden-bay.jpg" width = 200 length = 200 />
+             <br>
+              <form action="">
+  <input type="radio" name="traveling" value="1"> Alone<br>
+  <input type="radio" name="traveling" value="2"> With friends<br>
+  <input type="radio" name="traveling" value="3"> With a significant other<br>
+  <input type="radio" name="traveling" value="4"> With family
+         </div>
+           <br>
+<br>
+          <br>
+         <div>
+             <p><b>What do you like to do on weekends?</b></p>
+             <img style='border:3px solid white' src ="https://crescentvale.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-30-at-7.48.25-AM-1030x509.png" width = 200 length = 200 />
+             <br>
+              <form action="">
+  <input type="radio" name="weekends" value="1"> Go out with friends<br>
+  <input type="radio" name="weekends" value="2"> Sleep<br>
+  <input type="radio" name="weekends" value="3"> Watch Netflix<br>
+  <input type="radio" name="weekends" value="4"> Go on nature walks
+         </div>
+           <br>
+<br>
+          <br>
+         <div>
+             <p><b>What type of music do you listen to?</b></p>
+             <img style='border:3px solid white' src ="https://themacu.com/wp-content/uploads/2017/06/512x512bb.png" width=200 length=200 />
+             <br>
+              <form action="">
+  <input type="radio" name="music" value="1"> Rap<br>
+  <input type="radio" name="music" value="2"> EDM<br>
+  <input type="radio" name="music" value="3"> Pop<br>
+  <input type="radio" name="music" value="4"> Classical
+         </div>
+           <br>
+<br>
+          <br>
+         <div>
+         <p><b>What is your favorite food?</b></p>
+         <img style='border:3px solid white' src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" width=200 length=200 />
+         <br>
+              <form action="">
+  <input type="radio" name="food" value="1"> Pizza<br>
+  <input type="radio" name="food" value="2"> Steak<br>
+  <input type="radio" name="food" value="3"> Burgers<br>
+  <input type="radio" name="food" value="4"> Other
+         </div>
+           <br>
+<br>
+          <br>
+            <div>
+         <p><b>What's your favorite subject?</b></p>
+         <img style='border:3px solid white' src= "https://successatschool.org/media/cache/article_main_img/uploads/tool/large_313101385.png" width=200 length=200 />
+         <br>
+              <form action="">
+  <input type="radio" name="subject" value="1"> Art<br>
+  <input type="radio" name="subject" value="2"> Science<br>
+  <input type="radio" name="subject" value="3"> Language<br>
+  <input type="radio" name="subject" value="4"> History
+         </div>
+              <br>
+             <button style="height:35px;width:175px" type ="submit" > Let's Find your Destination!</button>
+             </form>
+         </center>
+        
+    </body>
 </html>
+           

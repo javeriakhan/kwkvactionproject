@@ -1,0 +1,18 @@
+h1 {
+  font-size:450%;
+  font-family: helvetica;
+  letter-spacing: 2px;
+  color: white;
+}
+
+body {
+  background-image: url("https://www.pearlhotelnyc.com/assets/images/home/newyork_city.jpg");
+    color: white;
+  font-family: helvetica;
+}
+
+
+p {
+  font-size:140%;
+  font-family: helvetica;
+}

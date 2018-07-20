@@ -12,17 +12,6 @@ class MyApp < Sinatra::Base
    erb :questions
  end
 
- # get '/breakfast.erb' do
- #   erb :breakfast
- # end
- #
- # get '/snack' do
- #   erb :snack
- # end
- #
- # get '/dessert' do
- #   erb :dessert
- # end
 
  post  '/results' do
    answers = params.values
@@ -32,13 +21,22 @@ class MyApp < Sinatra::Base
    end
    puts @total
 
-   @cookie = cookie_chooser(@total)
-   if @cookie == "cranberry"
-     erb :cranberry
-   elsif @cookie == "trailmix"
-     erb :trailmix
-   elsif @cookie == "chocolatey"
-     erb :chocolatey
+   @travel = question(@total)
+   if @travel == "nyc"
+     erb :nyc
+   elsif @travel == "miami"
+     erb :miami
+   elsif @travel == "LA"
+     erb :LA
+     elsif @travel == "dc"
+     erb :dc
   end
 end
 end
+
+
+
+
+
+
+

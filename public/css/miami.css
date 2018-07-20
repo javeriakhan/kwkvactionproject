@@ -1,0 +1,18 @@
+h1 {
+  font-size:450%;
+  font-family: helvetica;
+  letter-spacing: 2px;
+  color: white;
+}
+
+body {
+  background-image: url("https://www.fortunebuilders.com/wp-content/uploads/2016/04/miamis-real-estate-market-1024x684.jpg");
+    color: white;
+  font-family: helvetica;
+}
+
+
+p {
+  font-size:140%;
+  font-family: helvetica;
+}
